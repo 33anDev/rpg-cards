@@ -1,11 +1,9 @@
 import "./App.css";
 
-// BERÄKNINGSFUNKTIONEN
 function calculatePower(level, hp) {
   return level * 10 + hp;
 }
 
-// KORT-MALLEN
 function CharacterCard(props) {
   const hero = props.character;
 
@@ -36,7 +34,6 @@ function CharacterCard(props) {
   );
 }
 
-// HUVUDSIDAN
 export default function App() {
   const guild = [
     { name: "Emil", role: "Kungen", hp: 150, level: 15 },
